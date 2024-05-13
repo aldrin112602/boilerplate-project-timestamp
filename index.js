@@ -25,7 +25,6 @@ app.get("/api/hello", function (req, res) {
 });
 
 
-
 app.get('/api/:date', (req, res) => {
   const { date } = req.params;
 
